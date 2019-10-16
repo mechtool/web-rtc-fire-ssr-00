@@ -44,13 +44,17 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/manifest.webmanifest"
+              "src/manifest.webmanifest",
+              "src/robots.txt"
+
             ],
             "styles": [
               "src/custom-theme.scss",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/adapter-latest.js"
+            ]
           },
           "configurations": {
             "production": {

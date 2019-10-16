@@ -45,7 +45,7 @@ app.set('port', PORT);
 // app.get('/api/**', (req, res) => { });
 // Serve static files from /browser
 app.get('*.*', express.static(DIST_FOLDER, {
-  maxAge: '1y'
+  maxAge: 31557600
 }));
 
 // All regular routes use the Universal engine

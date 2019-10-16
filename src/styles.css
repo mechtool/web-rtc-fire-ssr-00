@@ -1,4 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Oswald-L';
+    font-display: block;
+    font-style: normal;
+    font-weight: 300;
+    src: url("/assets/fonts/Oswald-Light.ttf") ;
+}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@font-face {
+    font-family: 'Oswald-R';
+    font-display: block;
+    font-weight: 400;
+    src: url("/assets/fonts/Oswald-Regular.ttf") ;
+}
+@font-face {
+    font-family: 'Material Icons Outlined';
+    font-display: block;
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/fonts/Material-icons-outlined.woff2) format('woff2');
+}
+
+.material-icons,.material-icons-outlined {
+    font-family: 'Material Icons Outlined', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    font-family: "Oswald-L", "Oswald-R",  Roboto, "Helvetica Neue", sans-serif;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    user-select: none;
+}
